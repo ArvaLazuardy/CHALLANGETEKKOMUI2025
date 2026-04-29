@@ -20,8 +20,8 @@ void vigenereDecrypt(char *ciphertext, char *key) {
 }
 
 int main() {
-    char ciphertext[] = "fWtTdxEBFsaigoG";
-    char key[] = "Nenov";
+    char ciphertext[] = "HlTBZUYEXAJzIOP";
+    char key[] = "hCJky";
 
     printf("Encrypted Text : %s\n", ciphertext);
     vigenereDecrypt(ciphertext, key);
